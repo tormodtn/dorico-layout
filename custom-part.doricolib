@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kScoreLibrary>
+	<fileVersion>1.1143</fileVersion>
+	<temperaments>
+		<entities array="true"/>
+	</temperaments>
+	<accidentalSystems>
+		<entities array="true"/>
+	</accidentalSystems>
+	<accidentalDefinitions>
+		<entities array="true"/>
+	</accidentalDefinitions>
+	<tonalitySystemDefinitions>
+		<entities array="true"/>
+	</tonalitySystemDefinitions>
+	<ensembles>
+		<entities array="true"/>
+	</ensembles>
+	<instruments>
+		<entities array="true"/>
+	</instruments>
+	<instrumentNames>
+		<entities array="true"/>
+		<language>kEnglish</language>
+	</instrumentNames>
+	<instrumentFamilies>
+		<entities array="true"/>
+	</instrumentFamilies>
+	<instrumentScoreOrders>
+		<entities array="true"/>
+	</instrumentScoreOrders>
+	<clefDefinitions>
+		<entities array="true"/>
+	</clefDefinitions>
+	<ottavaLineDefinitions>
+		<entities array="true"/>
+	</ottavaLineDefinitions>
+	<noteheadSetDefinitions>
+		<entities array="true"/>
+	</noteheadSetDefinitions>
+	<noteheadDefinitions>
+		<entities array="true"/>
+	</noteheadDefinitions>
+	<restSetDefinitions>
+		<entities array="true"/>
+	</restSetDefinitions>
+	<restDefinitions>
+		<entities array="true"/>
+	</restDefinitions>
+	<flagSetDefinitions>
+		<entities array="true"/>
+	</flagSetDefinitions>
+	<flagDefinitions>
+		<entities array="true"/>
+	</flagDefinitions>
+	<graphicDefinitions>
+		<entities array="true"/>
+	</graphicDefinitions>
+	<blobDefinitions>
+		<entities array="true"/>
+	</blobDefinitions>
+	<drawingDefinitions>
+		<entities array="true"/>
+	</drawingDefinitions>
+	<textDefinitions>
+		<entities array="true"/>
+	</textDefinitions>
+	<glyphDefinitions>
+		<entities array="true"/>
+	</glyphDefinitions>
+	<compositeDefinitions>
+		<entities array="true"/>
+	</compositeDefinitions>
+	<tempoPresetDefinitions>
+		<entities array="true"/>
+	</tempoPresetDefinitions>
+	<rhythmicFeelDefinitions>
+		<entities array="true"/>
+	</rhythmicFeelDefinitions>
+	<penstyles>
+		<entities array="true"/>
+	</penstyles>
+	<fontstyles>
+		<entities array="true"/>
+	</fontstyles>
+	<brushstyles>
+		<entities array="true"/>
+	</brushstyles>
+	<pagePairDefinitionSets>
+		<entities array="true">
+			<PagePairDefinitionSetDefinition>
+				<name>Custom Part</name>
+				<entityID>pageset.user.ebfe73d50c3044e0b606ebad33444522</entityID>
+				<parentEntityID/>
+				<inheritanceMask>0</inheritanceMask>
+				<type>kPart</type>
+				<frameChainDefinitions>
+					<musicFrameChains array="true">
+						<musicFrameChains>
+							<frameChainDefinitionID>0</frameChainDefinitionID>
+							<flowIDs/>
+							<playerIDs/>
+							<flowInclusionPolicy>kFollowFlowFilter</flowInclusionPolicy>
+						</musicFrameChains>
+					</musicFrameChains>
+					<textFrameChains array="true">
+						<textFrameChains>
+							<frameChainDefinitionID>1</frameChainDefinitionID>
+							<contentSource>
+								<defaultContent>
+									<paragraphs array="true">
+										<paragraph>
+											<paragraphStyleID>paragraph.title</paragraphStyleID>
+											<content/>
+											<fragments array="true">
+												<fragment>
+													<content>{@projectTitle@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontName>Roboto Black</fontName>
+															<fontSize>9/10</fontSize>
+															<letterSpacing>2</letterSpacing>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+										<paragraph>
+											<paragraphStyleID>paragraph.defaulttext</paragraphStyleID>
+											<content/>
+											<alignmentOverride>kCentre</alignmentOverride>
+											<fragments array="true">
+												<fragment>
+													<content>From </content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontSize>5/6</fontSize>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+												<fragment>
+													<content>{@projectsubtitle@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontStyle>Italic</fontStyle>
+															<fontSize>5/6</fontSize>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+												<fragment>
+													<content> ({@projectcompositionyear@})</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontSize>5/6</fontSize>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+									</paragraphs>
+								</defaultContent>
+							</contentSource>
+							<properties>
+								<showBorder>false</showBorder>
+								<borderThickness>1</borderThickness>
+								<verticalAlignment>kTop</verticalAlignment>
+							</properties>
+						</textFrameChains>
+						<textFrameChains>
+							<frameChainDefinitionID>2</frameChainDefinitionID>
+							<contentSource>
+								<defaultContent>
+									<paragraphs array="true">
+										<paragraph>
+											<paragraphStyleID>paragraph.pagenumber</paragraphStyleID>
+											<content/>
+											<fragments array="true">
+												<fragment>
+													<content>{@page@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+									</paragraphs>
+								</defaultContent>
+							</contentSource>
+							<properties>
+								<showBorder>false</showBorder>
+								<borderThickness>1</borderThickness>
+								<verticalAlignment>kTop</verticalAlignment>
+							</properties>
+						</textFrameChains>
+						<textFrameChains>
+							<frameChainDefinitionID>3</frameChainDefinitionID>
+							<contentSource>
+								<defaultContent>
+									<paragraphs array="true">
+										<paragraph>
+											<paragraphStyleID>paragraph.copyright</paragraphStyleID>
+											<content/>
+											<fragments array="true">
+												<fragment>
+													<content>© {@projectCopyright@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontName>Minion Pro Capt</fontName>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+									</paragraphs>
+								</defaultContent>
+							</contentSource>
+							<properties>
+								<showBorder>false</showBorder>
+								<borderThickness>1</borderThickness>
+								<verticalAlignment>kBottom</verticalAlignment>
+							</properties>
+						</textFrameChains>
+						<textFrameChains>
+							<frameChainDefinitionID>5</frameChainDefinitionID>
+							<contentSource>
+								<defaultContent>
+									<paragraphs array="true">
+										<paragraph>
+											<paragraphStyleID>paragraph.defaulttext</paragraphStyleID>
+											<content/>
+											<alignmentOverride>kRight</alignmentOverride>
+											<fragments array="true">
+												<fragment>
+													<content>{@projectComposer@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontSize>5/6</fontSize>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+										<paragraph>
+											<paragraphStyleID>paragraph.defaulttext</paragraphStyleID>
+											<content/>
+											<alignmentOverride>kRight</alignmentOverride>
+											<fragments array="true">
+												<fragment>
+													<content>{@projectLyricist@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontSize>5/6</fontSize>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+										<paragraph>
+											<paragraphStyleID>paragraph.defaulttext</paragraphStyleID>
+											<content/>
+											<alignmentOverride>kRight</alignmentOverride>
+											<fragments array="true">
+												<fragment>
+													<content>Arr.: {@projectArranger@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontSize>5/6</fontSize>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+										<paragraph>
+											<paragraphStyleID>paragraph.defaulttext</paragraphStyleID>
+											<content/>
+											<alignmentOverride>kRight</alignmentOverride>
+											<fragments array="true"/>
+										</paragraph>
+									</paragraphs>
+								</defaultContent>
+							</contentSource>
+							<properties>
+								<showBorder>false</showBorder>
+								<borderThickness>1</borderThickness>
+								<verticalAlignment>kTop</verticalAlignment>
+							</properties>
+						</textFrameChains>
+						<textFrameChains>
+							<frameChainDefinitionID>6</frameChainDefinitionID>
+							<contentSource>
+								<defaultContent>
+									<paragraphs array="true">
+										<paragraph>
+											<paragraphStyleID>paragraph.header</paragraphStyleID>
+											<content/>
+											<fragments array="true">
+												<fragment>
+													<content>{@projectTitle@} - {@layoutName@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle/>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+									</paragraphs>
+								</defaultContent>
+							</contentSource>
+							<properties>
+								<showBorder>false</showBorder>
+								<borderThickness>1</borderThickness>
+								<verticalAlignment>kTop</verticalAlignment>
+							</properties>
+						</textFrameChains>
+						<textFrameChains>
+							<frameChainDefinitionID>8</frameChainDefinitionID>
+							<contentSource>
+								<defaultContent>
+									<paragraphs array="true">
+										<paragraph>
+											<paragraphStyleID>paragraph.flowtitle</paragraphStyleID>
+											<content/>
+											<fragments array="true">
+												<fragment>
+													<content>{@flowNumber@}. {@flowTitle@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle/>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+									</paragraphs>
+								</defaultContent>
+							</contentSource>
+							<properties>
+								<showBorder>false</showBorder>
+								<borderThickness>1</borderThickness>
+								<verticalAlignment>kCentre</verticalAlignment>
+							</properties>
+						</textFrameChains>
+						<textFrameChains>
+							<frameChainDefinitionID>10</frameChainDefinitionID>
+							<contentSource>
+								<defaultContent>
+									<paragraphs array="true">
+										<paragraph>
+											<paragraphStyleID>paragraph.defaulttext</paragraphStyleID>
+											<content/>
+											<fragments array="true">
+												<fragment>
+													<content>{@layoutName@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontName>Roboto Black</fontName>
+															<fontSize>5/6</fontSize>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+									</paragraphs>
+								</defaultContent>
+							</contentSource>
+							<properties>
+								<showBorder>false</showBorder>
+								<borderThickness>1</borderThickness>
+								<verticalAlignment>kTop</verticalAlignment>
+							</properties>
+						</textFrameChains>
+						<textFrameChains>
+							<frameChainDefinitionID>12</frameChainDefinitionID>
+							<contentSource>
+								<defaultContent>
+									<paragraphs array="true">
+										<paragraph>
+											<paragraphStyleID>paragraph.defaulttext</paragraphStyleID>
+											<content/>
+											<fragments array="true">
+												<fragment>
+													<content>Duration: {@projectotherinfo@}</content>
+													<textFragmentStyle>
+														<libraryStyle/>
+														<localStyle>
+															<fontSize>5/6</fontSize>
+														</localStyle>
+													</textFragmentStyle>
+												</fragment>
+											</fragments>
+										</paragraph>
+									</paragraphs>
+								</defaultContent>
+							</contentSource>
+							<properties>
+								<showBorder>false</showBorder>
+								<borderThickness>1</borderThickness>
+								<verticalAlignment>kTop</verticalAlignment>
+							</properties>
+						</textFrameChains>
+					</textFrameChains>
+					<graphicFrameChains array="true"/>
+					<chordsUsedFrameChains array="true"/>
+					<graphicSliceFrameChains array="true"/>
+				</frameChainDefinitions>
+				<firstPageDefinition>
+					<name/>
+					<left>
+						<frames array="true">
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>1</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>141.732</left>
+										<right>141.732</right>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<height>62.3622</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>3</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<right>0</right>
+										<bottom>0</bottom>
+									</positionConstraints>
+									<dimensionConstraints>
+										<height>15</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>0</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<right>0</right>
+										<bottom>11.8644</bottom>
+										<top>62.3622</top>
+									</positionConstraints>
+									<dimensionConstraints/>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>5</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>380.371</left>
+										<right>0</right>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<height>62.3622</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>10</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<width>141.732</width>
+										<height>14.1732</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>12</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<right>380.268</right>
+										<top>14.1732</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<width>141.732</width>
+										<height>14.1732</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+						</frames>
+					</left>
+					<right>
+						<frames array="true">
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>1</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>141.732</left>
+										<right>141.732</right>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<height>62.3622</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>3</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<right>0</right>
+										<bottom>0</bottom>
+									</positionConstraints>
+									<dimensionConstraints>
+										<height>15</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>0</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<right>0</right>
+										<bottom>11.8644</bottom>
+										<top>62.3622</top>
+									</positionConstraints>
+									<dimensionConstraints/>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>5</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>380.371</left>
+										<right>0</right>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<height>62.3622</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>10</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<width>141.732</width>
+										<height>14.1732</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>12</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<right>380.268</right>
+										<top>14.1732</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<width>141.732</width>
+										<height>14.1732</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+						</frames>
+					</right>
+				</firstPageDefinition>
+				<normalPageDefinition>
+					<name/>
+					<left>
+						<frames array="true">
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>2</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<width>20</width>
+										<height>15</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>0</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<right>0</right>
+										<bottom>0</bottom>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints/>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>6</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<right>0</right>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<height>15</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+						</frames>
+					</left>
+					<right>
+						<frames array="true">
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>2</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<width>20</width>
+										<height>15</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>0</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<right>0</right>
+										<bottom>0</bottom>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints/>
+								</constraints>
+							</frame>
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>6</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<right>0</right>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<height>15</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+						</frames>
+					</right>
+				</normalPageDefinition>
+				<flowHeadingDefinition>
+					<name>Default</name>
+					<heading>
+						<frames array="true">
+							<frame>
+								<indexInFrameChainOnPage>0</indexInFrameChainOnPage>
+								<contentRelative>true</contentRelative>
+								<frameChainDefinitionID>
+									<frameChainDefinitionID>8</frameChainDefinitionID>
+									<isLayoutSpecific>false</isLayoutSpecific>
+								</frameChainDefinitionID>
+								<constraints>
+									<positionConstraints>
+										<left>0</left>
+										<right>0</right>
+										<top>0</top>
+									</positionConstraints>
+									<dimensionConstraints>
+										<height>24</height>
+									</dimensionConstraints>
+								</constraints>
+							</frame>
+						</frames>
+					</heading>
+				</flowHeadingDefinition>
+				<extraPageDefinitions array="true"/>
+				<extraFlowHeadingDefinitions array="true"/>
+			</PagePairDefinitionSetDefinition>
+		</entities>
+	</pagePairDefinitionSets>
+	<pageDimensionPresets>
+		<entities array="true"/>
+	</pageDimensionPresets>
+	<paragraphStyles>
+		<entities array="true"/>
+	</paragraphStyles>
+	<characterStyles>
+		<entities array="true"/>
+	</characterStyles>
+	<playingTechniques>
+		<entities array="true"/>
+	</playingTechniques>
+	<ornamentDefinitions>
+		<entities array="true"/>
+	</ornamentDefinitions>
+	<multiSegmentLineDefinitions>
+		<entities array="true"/>
+	</multiSegmentLineDefinitions>
+	<playingTechniqueAppearanceCollectionDefinition>
+		<entities array="true"/>
+	</playingTechniqueAppearanceCollectionDefinition>
+	<expressionMapDefinitions>
+		<entities array="true"/>
+	</expressionMapDefinitions>
+	<drumKitNoteMapDefinitions>
+		<entities array="true"/>
+	</drumKitNoteMapDefinitions>
+	<repeatableCompositeCollectionDefinitions>
+		<entities array="true"/>
+	</repeatableCompositeCollectionDefinitions>
+	<chordSymbolAppearanceCollectionDefinitions>
+		<entities array="true"/>
+	</chordSymbolAppearanceCollectionDefinitions>
+	<chordSymbolAppearanceComponentCollectionDefinitions>
+		<entities array="true"/>
+	</chordSymbolAppearanceComponentCollectionDefinitions>
+	<percussionKitDefinitionCollectionDefinition>
+		<entities array="true"/>
+	</percussionKitDefinitionCollectionDefinition>
+	<percussionInstrumentDataCollectionDefinition>
+		<entities array="true"/>
+	</percussionInstrumentDataCollectionDefinition>
+	<frettedInstrumentDataCollectionDefinition>
+		<entities array="true"/>
+	</frettedInstrumentDataCollectionDefinition>
+	<chordDiagramCollectionDefinition>
+		<entities array="true"/>
+	</chordDiagramCollectionDefinition>
+	<lineAnnotationCollectionDefinition>
+		<entities array="true"/>
+	</lineAnnotationCollectionDefinition>
+	<lineBodyStyleCollectionDefinition>
+		<entities array="true"/>
+	</lineBodyStyleCollectionDefinition>
+	<lineStyleCollectionDefinition>
+		<entities array="true"/>
+	</lineStyleCollectionDefinition>
+</kScoreLibrary>
