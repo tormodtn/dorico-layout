@@ -90,7 +90,7 @@
 		<entities array="true">
 			<PagePairDefinitionSetDefinition>
 				<name>Custom Part</name>
-				<entityID>pageset.user.ebfe73d50c3044e0b606ebad33444522</entityID>
+				<entityID>pageset.user.20518a643012488bb716dc4d4f1186b0</entityID>
 				<parentEntityID/>
 				<inheritanceMask>0</inheritanceMask>
 				<type>kPart</type>
@@ -136,6 +136,7 @@
 													<textFragmentStyle>
 														<libraryStyle/>
 														<localStyle>
+															<fontName>Minion Pro</fontName>
 															<fontSize>5/6</fontSize>
 														</localStyle>
 													</textFragmentStyle>
@@ -145,6 +146,7 @@
 													<textFragmentStyle>
 														<libraryStyle/>
 														<localStyle>
+															<fontName>Minion Pro</fontName>
 															<fontStyle>Italic</fontStyle>
 															<fontSize>5/6</fontSize>
 														</localStyle>
@@ -155,6 +157,7 @@
 													<textFragmentStyle>
 														<libraryStyle/>
 														<localStyle>
+															<fontName>Minion Pro</fontName>
 															<fontSize>5/6</fontSize>
 														</localStyle>
 													</textFragmentStyle>
@@ -183,6 +186,9 @@
 													<content>{@page@}</content>
 													<textFragmentStyle>
 														<libraryStyle/>
+														<localStyle>
+															<fontName>Minion Pro</fontName>
+														</localStyle>
 													</textFragmentStyle>
 												</fragment>
 											</fragments>
@@ -210,7 +216,7 @@
 													<textFragmentStyle>
 														<libraryStyle/>
 														<localStyle>
-															<fontName>Minion Pro Capt</fontName>
+															<fontName>Minion Pro</fontName>
 														</localStyle>
 													</textFragmentStyle>
 												</fragment>
@@ -240,6 +246,7 @@
 													<textFragmentStyle>
 														<libraryStyle/>
 														<localStyle>
+															<fontName>Minion Pro</fontName>
 															<fontSize>5/6</fontSize>
 														</localStyle>
 													</textFragmentStyle>
@@ -256,6 +263,7 @@
 													<textFragmentStyle>
 														<libraryStyle/>
 														<localStyle>
+															<fontName>Minion Pro</fontName>
 															<fontSize>5/6</fontSize>
 														</localStyle>
 													</textFragmentStyle>
@@ -272,6 +280,7 @@
 													<textFragmentStyle>
 														<libraryStyle/>
 														<localStyle>
+															<fontName>Minion Pro</fontName>
 															<fontSize>5/6</fontSize>
 														</localStyle>
 													</textFragmentStyle>
@@ -306,7 +315,9 @@
 													<content>{@projectTitle@} - {@layoutName@}</content>
 													<textFragmentStyle>
 														<libraryStyle/>
-														<localStyle/>
+														<localStyle>
+															<fontName>Minion Pro</fontName>
+														</localStyle>
 													</textFragmentStyle>
 												</fragment>
 											</fragments>
@@ -391,6 +402,7 @@
 													<textFragmentStyle>
 														<libraryStyle/>
 														<localStyle>
+															<fontName>Minion Pro</fontName>
 															<fontSize>5/6</fontSize>
 														</localStyle>
 													</textFragmentStyle>
@@ -447,7 +459,7 @@
 										<bottom>0</bottom>
 									</positionConstraints>
 									<dimensionConstraints>
-										<height>15</height>
+										<height>14.1732</height>
 									</dimensionConstraints>
 								</constraints>
 							</frame>
@@ -462,7 +474,7 @@
 									<positionConstraints>
 										<left>0</left>
 										<right>0</right>
-										<bottom>11.8644</bottom>
+										<bottom>14.1732</bottom>
 										<top>62.3622</top>
 									</positionConstraints>
 									<dimensionConstraints/>
@@ -477,11 +489,11 @@
 								</frameChainDefinitionID>
 								<constraints>
 									<positionConstraints>
-										<left>380.371</left>
 										<right>0</right>
 										<top>0</top>
 									</positionConstraints>
 									<dimensionConstraints>
+										<width>141.732</width>
 										<height>62.3622</height>
 									</dimensionConstraints>
 								</constraints>
@@ -513,7 +525,7 @@
 								</frameChainDefinitionID>
 								<constraints>
 									<positionConstraints>
-										<right>380.268</right>
+										<left>2.84217e-14</left>
 										<top>14.1732</top>
 									</positionConstraints>
 									<dimensionConstraints>
@@ -558,7 +570,7 @@
 										<bottom>0</bottom>
 									</positionConstraints>
 									<dimensionConstraints>
-										<height>15</height>
+										<height>14.1732</height>
 									</dimensionConstraints>
 								</constraints>
 							</frame>
@@ -573,7 +585,7 @@
 									<positionConstraints>
 										<left>0</left>
 										<right>0</right>
-										<bottom>11.8644</bottom>
+										<bottom>14.1732</bottom>
 										<top>62.3622</top>
 									</positionConstraints>
 									<dimensionConstraints/>
@@ -588,11 +600,11 @@
 								</frameChainDefinitionID>
 								<constraints>
 									<positionConstraints>
-										<left>380.371</left>
 										<right>0</right>
 										<top>0</top>
 									</positionConstraints>
 									<dimensionConstraints>
+										<width>141.732</width>
 										<height>62.3622</height>
 									</dimensionConstraints>
 								</constraints>
@@ -624,7 +636,7 @@
 								</frameChainDefinitionID>
 								<constraints>
 									<positionConstraints>
-										<right>380.268</right>
+										<left>2.84217e-14</left>
 										<top>14.1732</top>
 									</positionConstraints>
 									<dimensionConstraints>
@@ -653,8 +665,8 @@
 										<top>0</top>
 									</positionConstraints>
 									<dimensionConstraints>
-										<width>20</width>
-										<height>15</height>
+										<width>22.6772</width>
+										<height>14.1732</height>
 									</dimensionConstraints>
 								</constraints>
 							</frame>
@@ -689,7 +701,7 @@
 										<top>0</top>
 									</positionConstraints>
 									<dimensionConstraints>
-										<height>15</height>
+										<height>14.1732</height>
 									</dimensionConstraints>
 								</constraints>
 							</frame>
@@ -710,8 +722,8 @@
 										<top>0</top>
 									</positionConstraints>
 									<dimensionConstraints>
-										<width>20</width>
-										<height>15</height>
+										<width>22.6772</width>
+										<height>14.1732</height>
 									</dimensionConstraints>
 								</constraints>
 							</frame>
@@ -746,7 +758,7 @@
 										<top>0</top>
 									</positionConstraints>
 									<dimensionConstraints>
-										<height>15</height>
+										<height>14.1732</height>
 									</dimensionConstraints>
 								</constraints>
 							</frame>
